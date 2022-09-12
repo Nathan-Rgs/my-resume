@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "NeueMachina";
+  src: url(/assets/fonts/NeueMachinaRegular.otf);
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.main {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+}
+
+.main::before,
+.main::after {
+  content: "";
+  background-image: url(/assets/imgs/background.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 140vw;
+  height: 100vh;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main::after {
+  content: "";
+  bottom: 0;
+  right: 0;
+  top: auto;
+  left: auto;
+  transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    max-width: 1024px;
+    margin: 1rem auto;
+  }
+  .main::before,
+  .main::after {
+    width: 70vw;
+  }
+}
