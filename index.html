@@ -10,7 +10,7 @@
       href="/assets/imgs/codeLogo.png"
       title="Icone Curriculo"
     />
-    <title>Portifolio Nathan Roberto</title>
+    <title>Portifólio Nathan Roberto</title>
 
     <!-- Normalize CSS -->
     <link
@@ -33,10 +33,14 @@
     <link rel="stylesheet" href="/assets/styles/global.css" />
     <link rel="stylesheet" href="/assets/styles/header.css" />
     <link rel="stylesheet" href="/assets/styles/acordeon.css" />
+    <link rel="stylesheet" href="/assets/styles/languages.css" />
+    <link rel="stylesheet" href="/assets/styles/portfolio.css" />
+    <link rel="stylesheet" href="/assets/styles/experience.css" />
+    <link rel="stylesheet" href="/assets/styles/skills.css" />
   </head>
   <body>
-    <div class="main">
-      <header class="header">
+    <main class="main">
+      <header class="header" style="visibility: visible">
         <img
           src="./assets/imgs/optmizedNathanPhoto.jpg"
           alt="Foto Nathan Roberto"
@@ -48,23 +52,181 @@
         </h1>
 
         <div class="information">
-          <p class="job">Estágio em Desenvolvimento Web</p>
-          <p class="location">Sorocaba, São Paulo - BR</p>
-          <p class="phone">+55 (15) 9 9741-1076</p>
-          <p class="email">nathan.rgs@gmail.com</p>
+          <p class="job">
+            <a href="https://ipfacens.com.br/sobre-nos/" target="_blank"
+              >Estágio em Desenvolvimento Web</a
+            >
+          </p>
+          <p class="location">
+            <a href="https://goo.gl/maps/L6HTnGN4kvHYcTG6A" target="_blank"
+              >Sorocaba, São Paulo - BR</a
+            >
+          </p>
+          <p class="phone">
+            <a
+              class="whatsapp"
+              target="_blank"
+              href="https://wa.me/5515997411076"
+              >+55 (15) 9 9741-1076</a
+            >
+            <a class="call" href="tel:(15) 9 9741-1076">+55 (15) 9 9741-1076</a>
+          </p>
+          <p class="email">
+            <a href="mailto:nathan.rgs@gmail.com">nathan.rgs@gmail.com</a>
+          </p>
         </div>
       </header>
 
       <section class="acordeon open">
-        <button class="trigger" type="button">Idiomas</button>
+        <button class="trigger" type="button"><h2>Skills</h2></button>
+
         <div class="content">
-          <ul>
+          <div class="skills">
+            <section class="tools">
+              <h3>Linguagens e Ferramentas:</h3>
+              <ul>
+                <li>
+                  <img
+                    src="/assets/imgs/icons/tools/javascript.svg"
+                    alt="JavaScript"
+                    title="JavaScript"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/assets/imgs/icons/tools/css.svg"
+                    alt="CSS"
+                    title="CSS"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/assets/imgs/icons/tools/html.svg"
+                    alt="HTML"
+                    title="HTML"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/assets/imgs/icons/tools/typescript.svg"
+                    alt="Typescript"
+                    title="Typescript"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/assets/imgs/icons/tools/react.svg"
+                    alt="ReactJs"
+                    title="ReactJs"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/assets/imgs/icons/tools/vuejs.svg"
+                    alt="VueJs"
+                    title="VueJs"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/assets/imgs/icons/tools/git.svg"
+                    alt="GitHub"
+                    title="GitHub"
+                  />
+                </li>
+              </ul>
+            </section>
+
+            <section class="habilities">
+              <h3>Habilidades:</h3>
+              <ul>
+                <li>Trabalho em equipe</li>
+                <li>Dedicação</li>
+                <li>Organização</li>
+                <li>Empenho</li>
+                <li>Comunicativo</li>
+                <li>Boa curva de aprendizado</li>
+                <li>Sempre em busca de conhecimento</li>
+                <li>Apaixonado por tecnologia</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Idiomas</h2></button>
+
+        <div class="content">
+          <ul class="languages">
             <li>Português (BR) - Nativo</li>
             <li>Inglês - Avançado</li>
           </ul>
         </div>
       </section>
-    </div>
+
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Portifólio</h2></button>
+
+        <div class="content">
+          <ul class="portfolio">
+            <li>
+              <h3 class="title github">Projeto Brabo</h3>
+              <a href="https://www.google.com" target="_blank"
+                >www.google.com</a
+              >
+            </li>
+            <li>
+              <h3 class="title github">Projeto Brabo</h3>
+              <a href="https://www.google.com" target="_blank"
+                >www.google.com</a
+              >
+            </li>
+            <li>
+              <h3 class="title github">Projeto Brabo</h3>
+              <a href="https://www.google.com" target="_blank"
+                >www.google.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="acordeon">
+        <button class="trigger" type="button">
+          <h2>Experiência Profissional</h2>
+        </button>
+
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h3 class="title">
+                HUAWEI Solution & Design Innovation Center - Facens
+              </h3>
+              <h4 class="ocuppation">Estágio em Desenvolvimento Web</h4>
+              <p class="period">Maio de 2021 – Dias atuais</p>
+
+              <p class="description">
+                Atuando como desenvolvedor FrontEnd de sites e sistemas, onde
+                todos os dias posso colocar as habilidades em: JavaScript,
+                VueJs, HTML, CSS e SQL a prova, praticando sempre e buscando a
+                constante melhora e aprendizado
+              </p>
+            </li>
+            <li>
+              <h3 class="title">VCP Automação Industrial</h3>
+              <h4 class="ocuppation">Técnico em Mecatrônica</h4>
+              <p class="period">Janeiro de 2020 – Maio de 2021</p>
+
+              <p>
+                Atuação em TI, projeção de peças em CAD, prestação de serviços,
+                montagem e projetos de painéis, entre outros
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <script src="/assets/js/acordeon.js"></script>
   </body>
 </html>

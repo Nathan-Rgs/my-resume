@@ -10,8 +10,8 @@
 
 .acordeon.open,
 .acordeon:hover {
-  background-color: #55569e;
-  border-color: #55569e;
+  background-color: #3e5bc4;
+  border-color: #3e5bc4;
 }
 
 .acordeon .trigger {
@@ -27,14 +27,21 @@
   border: none;
 }
 
+.acordeon .trigger h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
 .acordeon .trigger::after {
   content: "";
   background-image: url(/assets/imgs/icons/arrow-top.svg);
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
+  align-self: flex-end;
   width: 1.5rem;
   height: 1.5rem;
+  transition: 0.25s;
 }
 
 .acordeon.open .trigger::after {
@@ -46,9 +53,16 @@
 }
 
 .acordeon .content {
-  display: none;
+  overflow: hidden;
+  padding: 0 1rem 0rem 1rem;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.25s, opacity 0.25s ease-in-out,
+    padding 0.25s ease-in-out;
 }
 
 .acordeon.open .content {
-  display: inline-block;
+  max-height: 1200px;
+  opacity: 1;
+  padding: 0.1rem 1rem 1rem 1rem;
 }
