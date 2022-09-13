@@ -1,51 +1,54 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Nathan Roberto",
+  "photo": "https://avatars.githubusercontent.com/u/89109761?v=4",
+  "job": "Estágio em Desenvolvimento Web",
+  "location": "Sorocaba, São Paulo - BR",
+  "phone": "+55 (15) 9 9741-1076",
+  "email": "nathan.rgs@gmail.com",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/javascript.svg"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/html.svg"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/css.svg"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "name": "TypeScript",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/typescript.svg"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "VueJs",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/vuejs.svg"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "ReactJs",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/react.svg"
+      },
+      {
+        "name": "GitHub",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/git.svg"
       }
     ],
     "softSkills": [
-      "Empatia",
-      "Liderança",
       "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização"
+      "Dedicação",
+      "Organização",
+      "Empenho",
+      "Organização",
+      "Comunicativo",
+      "Boa curva de aprendizado",
+      "Sempre em busca de conhecimento",
+      "Apaixonado por tecnologia"
     ]
   },
-  "languages": [
-    "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
-  ],
+  "languages": ["Português (BR) - Nativo", "Inglês - Avançado"],
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
@@ -60,19 +63,16 @@
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "HUAWEI Solution & Design Innovation Center - Facens",
+      "ocuppation": "Estágio em Desenvolvimento Web",
+      "period": "Maio de 2021 – Dias atuais",
+      "description": "Atuando como desenvolvedor FrontEnd de sites e sistemas, onde todos os dias posso colocar as habilidades em: JavaScript, VueJs, HTML, CSS e SQL a prova, praticando sempre e buscando a constante melhora e aprendizado"
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "VCP Automação Industrial",
+      "ocuppation": "Técnico em Mecatrônica",
+      "period": "Janeiro de 2020 – Maio de 2021",
+      "description": "Atuação em TI, projeção de peças em CAD, prestação de serviços, montagem e projetos de painéis, entre outros"
     }
   ]
 }
