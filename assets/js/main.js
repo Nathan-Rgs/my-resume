@@ -27,18 +27,18 @@ function updateProfileInfo(profileData) {
   email.href = `mailto:${profileData.email}`;
 }
 
-function udpdateSoftSkills(profileData) {
-  const softSkills = document.getElementById("profile.skills.softSkills");
+function udpdateSoftSkills(softSkills) {
+  const softSkillsUl = document.getElementById("profile.skills.softSkills");
 
-  softSkills.innerHTML = profileData.skills.softSkills
+  softSkillsUl.innerHTML = softSkills
     .map((skill) => `<li>${skill}</li>`)
     .join("");
 }
 
-function updateHardSkills(profileData) {
-  const hardSkills = document.getElementById("profile.skills.hardSkills");
+function updateHardSkills(hardSkills) {
+  const hardSkillsUl = document.getElementById("profile.skills.hardSkills");
 
-  hardSkills.innerHTML = profileData.skills.hardSkills
+  hardSkillsUl.innerHTML = hardSkills
     .map(
       (skill) =>
         `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}" /> </li>`
@@ -46,9 +46,33 @@ function updateHardSkills(profileData) {
     .join("");
 }
 
+function updateLanguages(languages) {
+  const languagesUl = document.getElementById("profile.languages");
+  languagesUl.innerHTML = languages
+    .map((language) => `<li>${language}</li>`)
+    .join("");
+}
+
+function updatePortfolio(portfolio) {
+  console.log(portfolio);
+  const portfolioUl = document.getElementById("profile.portfolio");
+  portfolioUl.innerHTML = portfolio
+    .map(
+      (project) => `<li>
+        <h3 class="title ${project.github ? "github" : ""}">${project.name}</h3>
+        <a href="https://${project.url}" target="_blank"
+        >${project.url}</a
+        >
+        </li>`
+    )
+    .join("");
+}
+
 (async () => {
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
-  udpdateSoftSkills(profileData);
-  updateHardSkills(profileData);
+  udpdateSoftSkills(profileData.skills.softSkills);
+  updateHardSkills(profileData.skills.hardSkills);
+  updateLanguages(profileData.languages);
+  updatePortfolio(profileData.portfolio);
 })();

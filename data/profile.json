@@ -20,6 +20,10 @@
         "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/css.svg"
       },
       {
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/python.svg"
+      },
+      {
         "name": "TypeScript",
         "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/typescript.svg"
       },
@@ -31,10 +35,7 @@
         "name": "ReactJs",
         "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/react.svg"
       },
-      {
-        "name": "Python",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/python.svg"
-      },
+
       {
         "name": "GitHub",
         "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/gitHub.svg"
@@ -63,7 +64,7 @@
   "languages": ["Português (BR) - Nativo", "Inglês - Avançado"],
   "portfolio": [
     {
-      "name": "Plataforma de gerenciamento de estudos. Estudando React com Typescript (Curso Alura)",
+      "name": "Plataforma de gerenciamento de estudos. React com Typescript (Curso Alura)",
       "url": "https://github.com/Nathan-Rgs/StudiesManagementPlatform",
       "github": true
     },
@@ -75,18 +76,20 @@
     {
       "name": "Minha página de portfolio (Curso DIO)",
       "url": "https://github.com/Nathan-Rgs/myResume",
-      "github": true
+      "github": false
     }
   ],
   "professionalExperience": [
     {
       "name": "HUAWEI Solution & Design Innovation Center - Facens",
+      "siteUrl": "https://ipfacens.com.br/sobre-nos/",
       "ocuppation": "Estágio em Desenvolvimento Web",
       "period": "Maio de 2021 – Dias atuais",
       "description": "Atuando como desenvolvedor FrontEnd de sites e sistemas, onde todos os dias posso colocar as habilidades em: JavaScript, VueJs, HTML, CSS e SQL a prova, praticando sempre e buscando a constante melhora e aprendizado"
     },
     {
       "name": "VCP Automação Industrial",
+      "siteUrl": "https://www.vcpautomacao.com.br/",
       "ocuppation": "Técnico em Mecatrônica",
       "period": "Janeiro de 2020 – Maio de 2021",
       "description": "Atuação em TI, projeção de peças em CAD, prestação de serviços, montagem e projetos de painéis, entre outros"
