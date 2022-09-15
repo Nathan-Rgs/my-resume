@@ -58,13 +58,32 @@ function updatePortfolio(portfolio) {
   portfolioUl.innerHTML = portfolio
     .map(
       (project) => `<li>
-        <h3 class="title ${project.github == true ? "github" : ""}">${
-        project.name
-      }</h3>
+        <h3 class="title ${project.github ? "github" : ""}">${project.name}</h3>
         <a href="https://${project.url}" target="_blank"
         >${project.url}</a
         >
         </li>`
+    )
+    .join("");
+}
+
+function updateProfessionalExperience(professionalExperience) {
+  const professionalExperienceUl = document.getElementById(
+    "profile.professionalExperience"
+  );
+  professionalExperienceUl.innerHTML = professionalExperience
+    .map(
+      (experience) => `<li>
+      <h3 class="title">
+        <a href="${experience.siteUrl}" target="_blank">${experience.name}</a> 
+      </h3>
+      <h4 class="ocuppation">${experience.ocuppation}</h4>
+      <p class="period">${experience.period}</p>
+
+      <p class="description">
+        ${experience.description}
+      </p>
+    </li>`
     )
     .join("");
 }
@@ -76,4 +95,5 @@ function updatePortfolio(portfolio) {
   updateHardSkills(profileData.skills.hardSkills);
   updateLanguages(profileData.languages);
   updatePortfolio(profileData.portfolio);
+  updateProfessionalExperience(profileData.professionalExperience);
 })();
