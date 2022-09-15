@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "NeueMachina";
-  src: url('../assets/fonts/NeueMachinaRegular.otf');
+  src: url("../fonts/NeueMachinaRegular.otf");
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 .main::before,
 .main::after {
   content: "";
-  background-image: url("../assets/imgs/background.svg");
+  background-image: url("./assets/imgs/background.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 140vw;
