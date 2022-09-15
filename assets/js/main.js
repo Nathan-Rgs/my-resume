@@ -54,12 +54,13 @@ function updateLanguages(languages) {
 }
 
 function updatePortfolio(portfolio) {
-  console.log(portfolio);
   const portfolioUl = document.getElementById("profile.portfolio");
   portfolioUl.innerHTML = portfolio
     .map(
       (project) => `<li>
-        <h3 class="title ${project.github ? "github" : ""}">${project.name}</h3>
+        <h3 class="title ${project.github == true ? "github" : ""}">${
+        project.name
+      }</h3>
         <a href="https://${project.url}" target="_blank"
         >${project.url}</a
         >
