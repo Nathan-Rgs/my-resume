@@ -64,12 +64,12 @@
   "languages": ["Português (BR) - Nativo", "Inglês - Avançado"],
   "portfolio": [
     {
-      "name": "Gerenciamento de estudos com React/Typescript (Curso Alura)",
+      "name": "Gerenciamento de estudos com React/Typescript",
       "url": "https://github.com/Nathan-Rgs/StudiesManagementPlatform",
       "github": true
     },
     {
-      "name": "Criação de uma Pokedex (Curso DIO)",
+      "name": "Pokedex web with api consumption",
       "url": "https://github.com/Nathan-Rgs/webPokedexWithApi",
       "github": true
     },
