@@ -18,7 +18,7 @@
 
 .experience li .period::before {
   content: "";
-  background-image: url(/assets//imgs/icons/calendar.svg);
+  background-image: url("../assets/imgs/icons/calendar.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
