@@ -9,44 +9,44 @@
     "hardSkills": [
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/javascript.svg"
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/mainassets/imgs/icons/tools/javascript.svg"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/html.svg"
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/mainassets/imgs/icons/tools/html.svg"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/css.svg"
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/mainassets/imgs/icons/tools/css.svg"
       },
       {
         "name": "Python",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/python.svg"
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/mainassets/imgs/icons/tools/python.svg"
       },
       {
         "name": "TypeScript",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/typescript.svg"
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/mainassets/imgs/icons/tools/typescript.svg"
       },
       {
         "name": "VueJs",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/vuejs.svg"
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/mainassets/imgs/icons/tools/vuejs.svg"
       },
       {
         "name": "ReactJs",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/react.svg"
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/mainassets/imgs/icons/tools/react.svg"
       },
 
       {
         "name": "GitHub",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/gitHub.svg"
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/mainassets/imgs/icons/tools/gitHub.svg"
       },
       {
         "name": "Git",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/git.svg"
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/mainassets/imgs/icons/tools/git.svg"
       },
       {
         "name": "Visual Studio Code",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/visual-studio-code.svg"
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/mainassets/imgs/icons/tools/visual-studio-code.svg"
       }
     ],
     "softSkills": [
