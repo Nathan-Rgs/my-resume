@@ -51,13 +51,18 @@
   "languages": ["Português (BR) - Nativo", "Inglês - Avançado"],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Plataforma de gerenciamento de estudos. Estudando React com Typescript (Curso Alura)",
+      "url": "https://github.com/Nathan-Rgs/StudiesManagementPlatform",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Criação de uma Pokedex (Curso DIO)",
+      "url": "https://github.com/Nathan-Rgs/webPokedexWithApi",
+      "github": true
+    },
+    {
+      "name": "Minha página de portfolio (Curso DIO)",
+      "url": "https://github.com/Nathan-Rgs/myResume",
       "github": true
     }
   ],
