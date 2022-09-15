@@ -64,7 +64,7 @@
   "languages": ["Português (BR) - Nativo", "Inglês - Avançado"],
   "portfolio": [
     {
-      "name": "Gerenciamento de estudos com React/Typescript",
+      "name": "Plataforma de gerenciamento de estudos",
       "url": "https://github.com/Nathan-Rgs/StudiesManagementPlatform",
       "github": true
     },
@@ -74,7 +74,7 @@
       "github": true
     },
     {
-      "name": "Minha página de portfolio (Curso DIO)",
+      "name": "Minha página de portfolio",
       "url": "https://github.com/Nathan-Rgs/myResume",
       "github": true
     }
