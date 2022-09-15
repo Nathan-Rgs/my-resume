@@ -64,7 +64,7 @@
   "languages": ["Português (BR) - Nativo", "Inglês - Avançado"],
   "portfolio": [
     {
-      "name": "Gerenciamento de estudos com React Typescript (Curso Alura)",
+      "name": "Gerenciamento de estudos com React/Typescript (Curso Alura)",
       "url": "https://github.com/Nathan-Rgs/StudiesManagementPlatform",
       "github": true
     },
