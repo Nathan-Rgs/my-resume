@@ -32,8 +32,20 @@
         "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/react.svg"
       },
       {
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/python.svg"
+      },
+      {
         "name": "GitHub",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/gitHub.svg"
+      },
+      {
+        "name": "Git",
         "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/git.svg"
+      },
+      {
+        "name": "Visual Studio Code",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/visual-studio-code.svg"
       }
     ],
     "softSkills": [
