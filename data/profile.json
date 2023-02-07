@@ -1,7 +1,7 @@
 {
   "name": "Nathan Roberto",
   "photo": "https://avatars.githubusercontent.com/u/89109761?v=4",
-  "job": "Estágio em Desenvolvimento Web",
+  "job": "Software Developer for Cloud Computing",
   "location": "Sorocaba, São Paulo - BR",
   "phone": "+55 (15) 9 9741-1076",
   "email": "nathan.rgs@gmail.com",
@@ -50,49 +50,60 @@
       }
     ],
     "softSkills": [
-      "Trabalho em equipe",
-      "Dedicação",
-      "Organização",
-      "Empenho",
-      "Organização",
-      "Comunicativo",
-      "Boa curva de aprendizado",
-      "Sempre em busca de conhecimento",
-      "Apaixonado por tecnologia"
+      "Teamwork",
+      "Dedication",
+      "Organization",
+      "Commitment",
+      "Communicative",
+      "Great learning curve",
+      "Always in search of knowledge",
+      "Passionate for technology"
     ]
   },
-  "languages": ["Português (BR) - Nativo", "Inglês - Avançado"],
+  "languages": ["Portuguese (BR) - Native", "English - Advanced"],
   "portfolio": [
     {
-      "name": "Plataforma de gerenciamento de estudos",
+      "name": "Study Management Platform",
       "url": "https://github.com/Nathan-Rgs/StudiesManagementPlatform",
       "github": true
     },
     {
-      "name": "Pokedex Estilizada com consumo de api",
-      "url": "https://github.com/Nathan-Rgs/webPokedexWithApi",
+      "name": "Application for university administration",
+      "url": "https://github.com/Nathan-Rgs/AC2_universityApp",
       "github": true
     },
     {
-      "name": "Minha página de portfolio",
+      "name": "Web Development Exercises",
+      "url": "https://github.com/Nathan-Rgs/desenvolvimentoWebFacensClass",
+      "github": true
+    }
+    {
+      "name": "My portfolio page",
       "url": "https://github.com/Nathan-Rgs/myResume",
       "github": true
     }
   ],
   "professionalExperience": [
     {
+      "name": "Fraunhofer Institute for Production Technology IPT",
+      "siteUrl": "https://www.ipt.fraunhofer.de/",
+      "ocuppation": "Software Developer for Cloud Computing",
+      "period": "January 2023 - Current Days",
+      "description": "Working as a software developer for cloud computing always using skills such as: TypeScript, JavaScript, ReactJs, HTML, CSS and NodeJs, working with people who master the subject so I can learn and improve myself more and more"
+    },
+    {
       "name": "HUAWEI Solution & Design Innovation Center - Facens",
       "siteUrl": "https://ipfacens.com.br/sobre-nos/",
-      "ocuppation": "Estágio em Desenvolvimento Web",
-      "period": "Maio de 2021 – Dias atuais",
-      "description": "Atuando como desenvolvedor FrontEnd de sites e sistemas, onde todos os dias posso colocar as habilidades em: JavaScript, VueJs, HTML, CSS e SQL a prova, praticando sempre e buscando a constante melhora e aprendizado"
+      "ocuppation": "Web Development Internship",
+      "period": "May 2021 - December 2022",
+      "description": "Working as a FrontEnd developer of websites and systems, where every day I can put the skills in: JavaScript, VueJs, HTML, CSS and SQL to the test, always practicing and seeking constant improvement and learning."
     },
     {
       "name": "VCP Automação Industrial",
       "siteUrl": "https://www.vcpautomacao.com.br/",
-      "ocuppation": "Técnico em Mecatrônica",
-      "period": "Janeiro de 2020 – Maio de 2021",
-      "description": "Atuação em TI, projeção de peças em CAD, prestação de serviços, montagem e projetos de painéis, entre outros"
+      "ocuppation": "Mechatronics Technician",
+      "period": "January 2020 - May 2021",
+      "description": "Working with IT, projecting parts in CAD, providing services, assembling and designing panels, among others"
     }
   ]
 }
