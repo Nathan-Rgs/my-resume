@@ -99,10 +99,31 @@
   background-image: url("../imgs/icons/whatsapp-icon.svg");
 }
 
+.information .personal-fields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.information .cv::before {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.5rem;
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../imgs/codeLogo.png");
+}
+
+
 .information .email::before {
   content: "";
   display: inline-block;
   height: 1rem;
+  margin-right: 0.5rem;
   background-repeat: no-repeat;
   background-size: contain;
   width: 1rem;
