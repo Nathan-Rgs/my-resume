@@ -64,22 +64,22 @@
   "portfolio": [
     {
       "name": "Study Management Platform",
-      "url": "https://github.com/Nathan-Rgs/StudiesManagementPlatform",
+      "url": "github.com/Nathan-Rgs/StudiesManagementPlatform",
       "github": true
     },
     {
       "name": "Application for university administration",
-      "url": "https://github.com/Nathan-Rgs/AC2_universityApp",
+      "url": "github.com/Nathan-Rgs/AC2_universityApp",
       "github": true
     },
     {
       "name": "Web Development Exercises",
-      "url": "https://github.com/Nathan-Rgs/desenvolvimentoWebFacensClass",
+      "url": "github.com/Nathan-Rgs/desenvolvimentoWebFacensClass",
       "github": true
     },
     {
       "name": "My portfolio page",
-      "url": "https://github.com/Nathan-Rgs/myResume",
+      "url": "github.com/Nathan-Rgs/myResume",
       "github": true
     }
   ],
