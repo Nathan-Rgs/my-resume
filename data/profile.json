@@ -60,7 +60,7 @@
       "Passionate for technology"
     ]
   },
-  "languages": ["Portuguese (BR) - Native", "English - Advanced"],
+  "languages": ["Portuguese (BR) - Native", "English - Fluent"],
   "portfolio": [
     {
       "name": "Study Management Platform",
@@ -68,7 +68,7 @@
       "github": true
     },
     {
-      "name": "Application for university administration",
+      "name": "Application for University Administration",
       "url": "github.com/Nathan-Rgs/AC2_universityApp",
       "github": true
     },
@@ -77,11 +77,6 @@
       "url": "github.com/Nathan-Rgs/desenvolvimentoWebFacensClass",
       "github": true
     },
-    {
-      "name": "My portfolio page",
-      "url": "github.com/Nathan-Rgs/myResume",
-      "github": true
-    }
   ],
   "professionalExperience": [
     {
@@ -99,7 +94,7 @@
       "description": "Working as a FrontEnd developer of websites and systems, where every day I can put the skills in: JavaScript, VueJs, HTML, CSS and SQL to the test, always practicing and seeking constant improvement and learning."
     },
     {
-      "name": "VCP Automação Industrial",
+      "name": "VCP Industrial Automation",
       "siteUrl": "https://www.vcpautomacao.com.br/",
       "ocuppation": "Mechatronics Technician",
       "period": "January 2020 - May 2021",
