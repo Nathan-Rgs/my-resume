@@ -8,6 +8,14 @@
   "skills": {
     "hardSkills": [
       {
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/python.svg"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/typescript.svg"
+      },
+      {
         "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/javascript.svg"
       },
@@ -18,14 +26,6 @@
       {
         "name": "CSS",
         "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/css.svg"
-      },
-      {
-        "name": "Python",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/python.svg"
-      },
-      {
-        "name": "TypeScript",
-        "logo": "https://raw.githubusercontent.com/Nathan-Rgs/myResume/main/assets/imgs/icons/tools/typescript.svg"
       },
       {
         "name": "VueJs",
@@ -65,7 +65,7 @@
     {
       "name": "E-commerce FrontEnd Challenge",
       "url": "https://github.com/Nathan-Rgs/StudiesManagementPlatform",
-      "github": true,
+      "github": true
     },
     {
       "name": "Study Management Platform",
@@ -89,7 +89,7 @@
       "siteUrl": "https://www.ipt.fraunhofer.de/",
       "ocuppation": "Software Developer for Cloud Computing",
       "period": "January 2023 - Current Days",
-      "description": "Working as a software developer for cloud computing always using skills such as: TypeScript, JavaScript, ReactJs, HTML, CSS and NodeJs, working with people who master the subject so I can learn and improve myself more and more"
+      "description": "Working as a software developer for cloud computing developing systems using skills such as: TypeScript, JavaScript, ReactJs, HTML, CSS and NodeJs. And developing microservices and automation processes with python, working with people who master the subject so I can learn and improve myself more and more"
     },
     {
       "name": "HUAWEI Solution & Design Innovation Center - Facens",
