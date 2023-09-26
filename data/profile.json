@@ -63,6 +63,11 @@
   "languages": ["Portuguese (BR) - Native", "English - Fluent"],
   "portfolio": [
     {
+      "name": "E-commerce FrontEnd Challenge",
+      "url": "https://github.com/Nathan-Rgs/StudiesManagementPlatform",
+      "github": true,
+    },
+    {
       "name": "Study Management Platform",
       "url": "github.com/Nathan-Rgs/StudiesManagementPlatform",
       "github": true
