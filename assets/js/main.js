@@ -12,7 +12,6 @@ function updateProfileInfo(profileData) {
 
   const location = document.getElementById("profile.location");
   location.innerText = profileData.location;
-  location.href = "https://maps.app.goo.gl/HvCRjBqZD7yHb8Fb7";
 
   const whatsapp = document.getElementById("profile.whatsapp");
   whatsapp.innerText = profileData.phone;
