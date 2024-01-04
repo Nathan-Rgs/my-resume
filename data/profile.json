@@ -84,7 +84,7 @@
       "siteUrl": "https://www.ipt.fraunhofer.de/",
       "ocuppation": "Software Developer for Cloud Computing",
       "period": "January 2023 - January 2024",
-      "description": "Desenvolvimento e manutenção de interfaces de simulação em nuvem, utilizando React, Typescript, JavaScript e MUI no front-end. Criação de microsserviços para automação de simulações de engenharia com Python, focado na validação de parâmetros e operações CRUD. Gerenciamento e integração de microsserviços na infraestrutura de cloud computing, com foco na organização e administração de parâmetros e dependências. Desenvolvimento de microsserviços para a unificação de arquivos de resultados de simulação em um único arquivo HDF estruturado, facilitando a visualização e análise. Experiência com aquisição, processamento e análise de dados obtidos durante o fresamento de componentes de motores aeronáuticos, utilizando LabView, DIAdem e GraphQL."
+      "description": "Development and maintenance of cloud simulation interfaces, using React, Typescript, JavaScript and MUI on the front-end. Creation of microservices for automating engineering simulations with Python, focusing on parameter validation and CRUD operations. Management and integration of microservices in the cloud computing infrastructure, focusing on the organization and administration of parameters and dependencies. Development of microservices to unify simulation result files into a single structured HDF file, facilitating visualization and analysis. Experience with the acquisition, processing and analysis of data obtained during the milling of aero engine components, using LabView, DIAdem and GraphQL."
     },
     {
       "name": "HUAWEI Solution & Design Innovation Center - Facens",
