@@ -2,7 +2,7 @@
   "name": "Nathan Roberto",
   "photo": "https://avatars.githubusercontent.com/u/89109761?v=4",
   "job": "Software Developer for Cloud Computing",
-  "location": "Aachen, Germany",
+  "location": "Sorocaba, Brazil",
   "phone": "+55 (15) 9 9741-1076",
   "email": "nathan.rgs@gmail.com",
   "skills": {
@@ -83,8 +83,8 @@
       "name": "Fraunhofer Institute for Production Technology IPT",
       "siteUrl": "https://www.ipt.fraunhofer.de/",
       "ocuppation": "Software Developer for Cloud Computing",
-      "period": "January 2023 - Current Days",
-      "description": "Working as a software developer for cloud computing developing systems using skills such as: TypeScript, JavaScript, ReactJs, HTML, CSS and NodeJs. And developing microservices and automation processes with python, working with people who master the subject so I can learn and improve myself more and more"
+      "period": "January 2023 - January 2024",
+      "description": "Desenvolvimento e manutenção de interfaces de simulação em nuvem, utilizando React, Typescript, JavaScript e MUI no front-end. Criação de microsserviços para automação de simulações de engenharia com Python, focado na validação de parâmetros e operações CRUD. Gerenciamento e integração de microsserviços na infraestrutura de cloud computing, com foco na organização e administração de parâmetros e dependências. Desenvolvimento de microsserviços para a unificação de arquivos de resultados de simulação em um único arquivo HDF estruturado, facilitando a visualização e análise. Experiência com aquisição, processamento e análise de dados obtidos durante o fresamento de componentes de motores aeronáuticos, utilizando LabView, DIAdem e GraphQL."
     },
     {
       "name": "HUAWEI Solution & Design Innovation Center - Facens",
